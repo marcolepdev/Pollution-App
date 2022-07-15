@@ -245,10 +245,14 @@ justify-content: center;
 /*MOBILE*/
 
 @media only screen and (max-width: 415px) {
+
+    body{
+        height:100vh;
+    }
     .external-container {
         width: 92%;
         margin: 0 auto;
-        height:100vh;
+        height:95vh;
     }
 
     .open-search-container{
@@ -284,11 +288,12 @@ justify-content: center;
 /* IPHONE SE */
 @media only screen and (max-width: 376px){
     body{
-        height:105vh;
+        height:100vh;
     }
+    
 
     .external-container{
-        height:100vh;
+        height:110vh;
     }
     
     #location{
